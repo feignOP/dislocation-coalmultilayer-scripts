@@ -81,9 +81,9 @@ atomsk --create CsCl $a0 Co Al orient [001] [1-10] [110] top.cfg \
 atomsk top.cfg \
        -select out cylinder Z 0.5*box 0.5*box 117 \
        -remove-atom select \
-       cylindrical_sample_coal5.cfg
+       cylindrical_sample_coal.cfg
 
 # === Export to LAMMPS Format ===
-atomsk cylindrical_sample_coal5.cfg lammps
+atomsk cylindrical_sample_coal.cfg lammps
 
 echo "Single-crystal CoAl cylindrical sample with enlarged dislocation loops generated and exported."

@@ -40,8 +40,8 @@ atomsk --create CsCl 2.876 Co Al orient [001] [1-10] [110] top.cfg \
 atomsk --create fcc 4.05 Al orient [-1-12] [1-10] [111] al.cfg -dup 82 140 5
 
 # Create rotated versions of top.cfg along Z axis
-atomsk top.cfg -rotate com z 60 top_rot60.cfg
-atomsk top.cfg -rotate com z 120 top_rot120.cfg
+atomsk top.cfg -rotate com z 15 top_rot60.cfg
+atomsk top.cfg -rotate com z 30 top_rot120.cfg
 
 # Loop through substitution percentages
 for perc in 0 10 20 25 30 40; do

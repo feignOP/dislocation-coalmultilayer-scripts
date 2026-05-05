@@ -1,5 +1,7 @@
 # CoAl Dislocation Structure Generator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20043797.svg)](https://doi.org/10.5281/zenodo.20043797)
+
 A lightweight project to generate **CoAl (B2/CsCl) structures with dislocations** using Atomsk.  
 Outputs are ready to use in LAMMPS for molecular dynamics simulations.
 
